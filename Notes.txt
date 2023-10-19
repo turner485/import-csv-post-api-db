@@ -1,0 +1,12 @@
+*First off apologies for not committing as much as i should have been, But here's a few lines of my workings and thoughts.
+
+- Firstly straight out of the gate, I knew straight away i had to get the data from the csv into some sort of list or object
+- I identified the ips & the serial numbers and then had them validated.
+- Running through the entire list of data, I added the validated entries to to a new list
+- I added the salt hash afterwards for the database entries.
+- I then made database.py made the database connection and set up a query in which to add the data to the tables.
+- Unfortunately dedupe did not want to install to my pc so the that part i did not get around too.
+- I then made api_request.py and set up a post request.
+- I used chucks of 75 then looped through the list that created for the validated lines, then used json yo send the data to the endpoint, I set up error handing to see if the status codes. 
+
+* I have thoroughly enjoyed this coding task :) 

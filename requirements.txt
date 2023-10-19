@@ -1,0 +1,9 @@
+requests
+sqlite3
+csv
+hashlib3
+json
+re
+pathlib
+argsparse
+logging
